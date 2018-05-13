@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">城子街镇人民政府</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="admin">系统管理员</string>
+    <string name="nav_header_title">张俊余</string>
+    <string name="nav_header_subtitle">吉林省长春市</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="register">没有账号？注册</string>
+    <string name="name">真实姓名</string>
+    <string name="sex">性别：</string>
+    <string name="idNum">身份证号</string>
+    <string name="phoneNum">手机号码</string>
+    <string name="login">点击登录</string>
+    <string name="username">用户名（手机号）</string>
+    <string name="password">密码</string>
+    <string name="login_title">登录</string>
+    <string name="register_title">注册</string>
+    <string name="man">男</string>
+    <string name="woman">女</string>
+    <string name="msg_ac">短信验证码</string>
+    <string name="msg_get">获取短信验证码</string>
+    <string name="location">村名：</string>
+    <string name="forget">忘记密码？</string>
+    <string name="forgetpass">忘记密码</string>
+    <string name="forgethint">请输入你的手机号：</string>
+    <string name="next_step">下一步</string>
+    <string name="reset_pass">密码重置</string>
+    <string name="new_pass">新密码：</string>
+    <string name="repeat_pass">确认新密码：</string>
+    <string name="ac_reset">确认重置</string>
+    <string name="introduce">机构简介</string>
+    <string name="fudemin">付德民</string>
+    <string name="houhaiying">侯海英</string>
+    <string name="jiangyongbin">姜永彬</string>
+    <string name="liurui">刘锐</string>
+    <string name="liuwei">刘炜</string>
+    <string name="mengfanqi">孟凡琪</string>
+    <string name="quhongjun">曲洪军</string>
+    <string name="wangchuluan">王初峦</string>
+    <string name="wangchunguang">王春光</string>
+
+    <string name="dangweishuji">党委书记</string>
+    <string name="dangweifushujizhenzhang">党委副书记、镇长</string>
+    <string name="rendazhuxi">人大主席</string>
+    <string name="dangweifushuji">党委副书记</string>
+    <string name="fuzhenzhang">副镇长</string>
+    <string name="wuzhuangbuzhang">武装部长</string>
+
+    <string name="danwei">单位</string>
+    <string name="zhiwu">职务</string>
+    <string name="xingming">姓名</string>
+
+    <string name="caizhengsuo">财政所</string>
+    <string name="sifasuo">司法所</string>
+    <string name="tudisuo">土地所</string>
+    <string name="laodongbaozhang">劳动保障所</string>
+    <string name="shuilisuo">水利所</string>
+    <string name="xumuzhan">畜牧站</string>
+    <string name="nongjingsuo">农经所</string>
+
+    <string name="lorem_ipsum_short">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </string>
+    <string name="lorem_ipsum_long">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </string>
+
+    <string name="title_following">Following</string>
+    <string name="toolbar_bio">Bio</string>
+    <string name="toolbar_details">Details</string>
+    <string name="userma">个人信息</string>
+    <string name="user_center">个人中心</string>
+    <string name="welcome">欢迎您，管理员</string>
+    <string name="status">申请状态：</string>
+    <string name="status1">审核状态：</string>
+
+    <string name="addnews">添加新闻</string>
+    <string name="addmananger">添加管理员</string>
+    <string name="querynews">查看新闻</string>
+    <string name="news">新闻管理</string>
+    <string name="manager">管理员管理</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="news_manager">新闻管理</string>
+    <string name="add_news">添加新闻</string>
+    <string name="delete_news">删除新闻</string>
+    <string name="edit_news">编辑新闻</string>
+</resources>

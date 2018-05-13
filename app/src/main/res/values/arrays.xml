@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="viliage_name">
+        <item>北京1</item>
+        <item>北京2</item>
+        <item>北京3</item>
+        <item>北京4</item>
+        <item>北京5</item>
+    </string-array>
+
+    <string-array name="news_type">
+        <item>村级</item>
+        <item>镇级</item>
+
+    </string-array>
+
+    <string-array name="job_name">
+
+        <item>党委书记</item>
+        <item>党委副书记、镇长</item>
+        <item>人大主席</item>
+        <item>党委副书记</item>
+        <item>副镇长</item>
+        <item>武装部长</item>
+    </string-array>
+</resources>

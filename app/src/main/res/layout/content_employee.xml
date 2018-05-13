@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <TableRow android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/danwei"
+                android:textSize="@dimen/margin_30"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zhiwu"
+                android:textSize="@dimen/margin_30"
+                android:layout_marginLeft="@dimen/margin_30"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/xingming"
+                android:textSize="@dimen/margin_30"
+                android:layout_marginLeft="@dimen/margin_30"
+                android:textStyle="bold"/>
+        </TableRow>
+        <TableRow android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/caizhengsuo"
+                android:textSize="25dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="所长"
+                android:textSize="25dp"
+                android:layout_marginLeft="@dimen/margin_30"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="孙彦年"
+                android:textSize="25dp"
+                android:layout_marginLeft="@dimen/margin_30"/>
+        </TableRow>
+        <TableRow android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/caizhengsuo"
+                android:textSize="25dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="会计"
+                android:textSize="25dp"
+                android:layout_marginLeft="@dimen/margin_30"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="刘传东"
+                android:textSize="25dp"
+                android:layout_marginLeft="@dimen/margin_30"/>
+        </TableRow>
+        <TableRow android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/caizhengsuo"
+                android:textSize="25dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="劳资"
+                android:textSize="25dp"
+                android:layout_marginLeft="@dimen/margin_30"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="于洪明"
+                android:textSize="25dp"
+                android:layout_marginLeft="@dimen/margin_30"/>
+        </TableRow>
+        <TableRow android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sifasuo"
+                android:textSize="25dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="社区矫正员"
+                android:textSize="25dp"
+                android:layout_marginLeft="@dimen/margin_30"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="郝艳丽"
+                android:textSize="25dp"
+                android:layout_marginLeft="@dimen/margin_30"/>
+        </TableRow>
+        <TableRow android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sifasuo"
+            android:textSize="25dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="普法志愿者"
+            android:textSize="25dp"
+            android:layout_marginLeft="@dimen/margin_30"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="刘志国"
+            android:textSize="25dp"
+            android:layout_marginLeft="@dimen/margin_30"/>
+    </TableRow>
+        <TableRow android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tudisuo"
+                android:textSize="@dimen/margin_25" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="所员"
+                android:textSize="@dimen/margin_25"
+                android:layout_marginLeft="@dimen/margin_30"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="杨建军"
+                android:textSize="@dimen/margin_25"
+                android:layout_marginLeft="@dimen/margin_30"/>
+        </TableRow>
+        <TableRow android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tudisuo"
+                android:textSize="@dimen/margin_25" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="所员"
+                android:textSize="@dimen/margin_25"
+                android:layout_marginLeft="@dimen/margin_30"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="王玉光"
+                android:textSize="@dimen/margin_25"
+                android:layout_marginLeft="@dimen/margin_30"/>
+        </TableRow>
+        <TableRow android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tudisuo"
+                android:textSize="@dimen/margin_25" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="所员"
+                android:textSize="@dimen/margin_25"
+                android:layout_marginLeft="@dimen/margin_30"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="高平"
+                android:textSize="@dimen/margin_25"
+                android:layout_marginLeft="@dimen/margin_30"/>
+        </TableRow>
+        <TableRow android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shuilisuo"
+                android:textSize="@dimen/margin_25" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="所长"
+                android:textSize="@dimen/margin_25"
+                android:layout_marginLeft="@dimen/margin_30"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="郭云峰"
+                android:textSize="@dimen/margin_25"
+                android:layout_marginLeft="@dimen/margin_30"/>
+        </TableRow>
+        <TableRow android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/xumuzhan"
+                android:textSize="@dimen/margin_25" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="站员"
+                android:textSize="@dimen/margin_25"
+                android:layout_marginLeft="@dimen/margin_30"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="孙成山"
+                android:textSize="@dimen/margin_25"
+                android:layout_marginLeft="@dimen/margin_30"/>
+        </TableRow>
+        <TableRow android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/xumuzhan"
+                android:textSize="@dimen/margin_25" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="站员"
+                android:textSize="@dimen/margin_25"
+                android:layout_marginLeft="@dimen/margin_30"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="矫继山"
+                android:textSize="@dimen/margin_25"
+                android:layout_marginLeft="@dimen/margin_30"/>
+        </TableRow>
+        <TableRow android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/xumuzhan"
+                android:textSize="@dimen/margin_25" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="站员"
+                android:textSize="@dimen/margin_25"
+                android:layout_marginLeft="@dimen/margin_30"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="张秀娟"
+                android:textSize="@dimen/margin_25"
+                android:layout_marginLeft="@dimen/margin_30"/>
+        </TableRow>
+        <TableRow android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/xumuzhan"
+                android:textSize="@dimen/margin_25" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="站员"
+                android:textSize="@dimen/margin_25"
+                android:layout_marginLeft="@dimen/margin_30"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="张久慧"
+                android:textSize="@dimen/margin_25"
+                android:layout_marginLeft="@dimen/margin_30"/>
+        </TableRow>
+        <TableRow android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nongjingsuo"
+                android:textSize="@dimen/margin_25" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="所长"
+                android:textSize="@dimen/margin_25"
+                android:layout_marginLeft="@dimen/margin_30"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="王占秋"
+                android:textSize="@dimen/margin_25"
+                android:layout_marginLeft="@dimen/margin_30"/>
+        </TableRow>
+        <TableRow android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nongjingsuo"
+                android:textSize="@dimen/margin_25" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="所员"
+                android:textSize="@dimen/margin_25"
+                android:layout_marginLeft="@dimen/margin_30"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="王雪峰"
+                android:textSize="@dimen/margin_25"
+                android:layout_marginLeft="@dimen/margin_30"/>
+        </TableRow>
+
+
+    </TableLayout>
+
+</LinearLayout>
