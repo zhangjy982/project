@@ -17,6 +17,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -25,6 +26,7 @@ import com.example.zhang.myapplication.R;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -133,8 +135,8 @@ public class MainActivity extends AppCompatActivity
                 case R.id.navigation_home:
                     return true;
                 case R.id.navigation_dashboard:
-                    Toast.makeText(MainActivity.this,"dashboard",
-                            Toast.LENGTH_SHORT).show();
+                    Intent intentTest = new Intent(MainActivity.this,AdminActivity.class);
+                    startActivity(intentTest);
                     return true;
                 case R.id.navigation_notifications:
                     //mTextMessage.setText(R.string.title_notifications);
@@ -145,4 +147,5 @@ public class MainActivity extends AppCompatActivity
             return false;
         }
     };
+
 }
