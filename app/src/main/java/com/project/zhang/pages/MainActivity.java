@@ -84,26 +84,19 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-
 
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
         if(id == R.id.action_settings) {
             return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
-        //菜单按钮的实现
+
         int id = item.getItemId();
 
         if (id == R.id.nav_introduce) {
@@ -111,7 +104,6 @@ public class MainActivity extends AppCompatActivity
                     Toast.LENGTH_SHORT).show();
             Intent intent_to_introduce = new Intent(MainActivity.this,IntroduceActivity.class);
             startActivity(intent_to_introduce);
-            // Handle the camera action
         } else if (id == R.id.nav_gallery) {
             Toast.makeText(MainActivity.this,"get_gallery",
                     Toast.LENGTH_SHORT).show();
@@ -139,15 +131,10 @@ public class MainActivity extends AppCompatActivity
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.navigation_home:
-                    //mTextMessage.setText(R.string.title_home);
-                    //Toast.makeText(MainActivity.this,"home",
-                            //Toast.LENGTH_SHORT).show();
                     return true;
                 case R.id.navigation_dashboard:
-                    //mTextMessage.setText(R.string.title_dashboard);
                     Toast.makeText(MainActivity.this,"dashboard",
                             Toast.LENGTH_SHORT).show();
-
                     return true;
                 case R.id.navigation_notifications:
                     //mTextMessage.setText(R.string.title_notifications);

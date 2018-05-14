@@ -25,6 +25,7 @@ public class AddNewsActivity extends AppCompatActivity {
     private EditText newsContent;
     private Button addNews;
     private List<NewsList> newsList = new ArrayList<>();
+    private int id = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,7 +35,8 @@ public class AddNewsActivity extends AppCompatActivity {
         addNews.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getData();
+                id++;
+                getDataCun(id);
                 NewsListDaoOpe.insertData(AddNewsActivity.this,newsList);
                 newsList.clear();
                 Toast.makeText(AddNewsActivity.this,"添加成功",Toast.LENGTH_SHORT).show();
@@ -44,14 +46,21 @@ public class AddNewsActivity extends AppCompatActivity {
     }
 
     //插入新闻数据
-    public void getData(){
+    private void getDataCun(int i){
 
         String news_type = "村级";
         String news_title = newsTitle.getText().toString();
         String news_content = newsContent.getText().toString();
+        NewsList news = new NewsList((long) i,news_type,news_title,news_content);
+        newsList.add(news);
+    }
+
+    private void getDataZhen(){
+        String news_type = "镇级";
+        String news_title = newsTitle.getText().toString();
+        String news_content = newsContent.getText().toString();
         NewsList news = new NewsList((long) 100,news_type,news_title,news_content);
         newsList.add(news);
-
     }
     private void init(){
         editType = (Spinner)findViewById(R.id.news_type);

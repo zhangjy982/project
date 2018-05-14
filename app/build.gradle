@@ -1,5 +1,6 @@
 apply plugin: 'com.android.application'
 apply plugin: 'org.greenrobot.greendao'
+apply plugin: 'com.mob.sdk'
 
 android {
     compileSdkVersion 27
@@ -15,11 +16,17 @@ android {
     greendao {
         //版本号，升级时可配置
         schemaVersion 1
-
         daoPackage 'com.project.zhang.dao'
-
         targetGenDir 'src/main/java'
     }
+
+    MobSDK {
+        appKey "25c1fd36afcbf"
+        appSecret "11858e6d545731a77d28fbfb01dd8ad5"
+
+        SMSSDK {}
+    }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -27,6 +34,7 @@ android {
         }
     }
 }
+
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
@@ -39,6 +47,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
     //greendao依赖
     implementation 'org.greenrobot:greendao:3.2.0'
+
 }
 
 
