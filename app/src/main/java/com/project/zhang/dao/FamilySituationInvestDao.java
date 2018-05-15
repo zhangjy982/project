@@ -20,7 +20,7 @@ public class FamilySituationInvestDao extends AbstractDao<FamilySituationInvest,
     public static final String TABLENAME = "FAMILY_SITUATION_INVEST";
 
     /**
-     * Properties of entity FamilySituationInvest.<br/>
+     * Properties of entity FamilySituationInvestDaoOpe.<br/>
      * Can be used for QueryBuilder and for referencing column names.
      */
     public static class Properties {
